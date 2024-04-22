@@ -80,7 +80,7 @@ pipeline{
                                  classifier: '', file: 'target/Uber.jar', 
                                  type: 'jar']
                             ], 
-                            credentialsId: 'nexus-auth', 
+                            credentialsId: 'NEXA', 
                             groupId: 'com.example', 
                             nexusUrl: '13.234.202.55:8081', 
                             nexusVersion: 'nexus3', 
